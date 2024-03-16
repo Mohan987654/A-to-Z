@@ -5,8 +5,11 @@ This project focuses on performing sentiment analysis on Amazon reviews using ma
 
 Team Members:
 1.Mohan Sai pappuru
+
 2.Vishnu Vardhan pitla
+
 3.Pushpa latha akkireddy
+
 4.Anjani devi thammineni
 
 The Problem it Solves:
