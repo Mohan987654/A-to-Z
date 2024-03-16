@@ -4,13 +4,13 @@ Description:
 This project aims to create a web-based interface for playing chess against an AI engine implemented in Python. The interface provides a user-friendly way to interact with the chessboard, make moves, and receive moves from the AI opponent.
 
 Team Members:
-1.Mohan Sai pappuru
+1.Mohan Sai pappuru  9921004538@klu.ac.in
+ 
+2.Vishnu Vardhan pitla  99210041774@klu.ac.in
 
-2.Vishnu Vardhan pitla
+3.Pushpa latha akkireddy 9921011052@klu.ac.in
 
-3.Pushpa latha akkireddy
-
-4.Anjani devi thammineni
+4.Anjani devi thammineni  9921011045@klu.ac.in
 
 The Problem it Solves:
 
@@ -49,22 +49,11 @@ Architecture Diagram:
 The frontend communicates with the Flask backend via HTTP requests to fetch moves, update the game state, and display the chessboard. Real-time updates are facilitated through WebSocket connections to ensure immediate feedback on moves made by either player.
 
 
-Flowchart:
+images
 
-+---------------------+                  +---------------------+
-|      Frontend       |                  |      Flask          |
-|    (Chessboard)     |    HTTP Requests |      Backend        |
-+----------+----------+                  +----------+----------+
-           |                                          |
-           |               Update Game State           |
-           +------------------------------------------>|
-           |                                          |
-           |              Receive Move Request        |
-           |<------------------------------------------+
-           |               Send Move Response         |
-           +----------------------------------------->|
-
-This flowchart illustrates the interaction between the frontend chessboard component and the Flask backend. The frontend sends HTTP requests to the backend to update the game state and receive moves from the AI opponent. The backend processes the requests, communicates with the chess engine, and sends move responses back to the frontend.
+![3d03f18b-0ff5-4c75-9739-48bab4bcb7bb](https://github.com/Mohan987654/A-to-Z/assets/163646122/f487f872-caa4-4d03-9c3c-a72da893b334)
+![5cbe46bd-6de1-42e1-9bd4-a84724440333](https://github.com/Mohan987654/A-to-Z/assets/163646122/70c4f5c6-9dba-4823-b149-be908ccc5836)
+![01879795-b448-4656-a7ea-2c391a145c4d](https://github.com/Mohan987654/A-to-Z/assets/163646122/c3131045-c417-4932-9a47-fa975c72d8db)
 
 -> run code through command promt.
 
